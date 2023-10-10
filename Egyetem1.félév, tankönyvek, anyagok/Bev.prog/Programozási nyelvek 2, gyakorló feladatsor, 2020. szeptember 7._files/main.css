@@ -1,0 +1,274 @@
+
+
+
+
+
+
+A IMG { border: none; }
+
+#content { 
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 10px 20px 15px 20px; 
+    width: 900px;
+    min-height: 900px;
+    vertical-align: top;
+}
+
+#pageBody {  font: normal 11px 'segoe ui',Tahoma,Arial;}
+
+#pageBody H1 {
+	font: normal 18px 'segoe ui light',Tahoma,Arial;
+	color: #606060;
+	margin: 0;
+	padding: 10px 0 15px 0;
+	letter-spacing: 2px;
+}
+
+#pageBody H2 {
+	font: normal 15px Tahoma,Arial;
+	color: #606060;
+	margin: 0;
+	padding: 10px 0 15px 0;
+	letter-spacing: 2px;
+}
+
+P,
+LI { 	
+	color: #606060;
+	font: normal 12px Tahoma,Arial;
+	margin-bottom: 1ex;
+}
+
+TH, TD { 	
+	color: #606060;
+	font: normal 12px Tahoma,Arial;
+}
+
+#pageBody a {
+	color: #202020;
+	font: normal 12px Tahoma,Arial;
+	text-decoration: none;	
+}
+
+#pageBody a:hover {
+	color: #802020;
+}
+
+p { 
+	margin: 5px 0 5px 0;  
+	text-align: justify; 
+}
+
+
+#pageBody FORM { 
+	font: normal 12px Tahoma,Arial;
+	color: #803030;
+	display: block;  
+	padding: 0;
+	margin: 20px 70px 20px 0px; 
+}
+
+#pageBody FORM P,
+.simpleForm TH,
+.simpleForm TD {
+	color: #803030;
+}
+
+
+
+#pageBody FORM H1 {
+	font: normal 20px Tahoma,Arial;
+	padding: 0;
+	margin: 0 0 10px 0; 
+	color: #803030;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.formLabel {
+	font: normal 12px Tahoma,Arial;
+	text-align: right;
+	padding-right: 15px;
+}
+
+INPUT, SELECT {
+	border: 1px solid #cccccc;
+	padding: 3px;
+	font-size: 12px;
+	background-color: white;
+}
+
+BUTTON { border: 1px solid #cccccc; padding: 4px 20px 4px 20px;  font: normal 11px Tahoma,Arial; }
+
+.scoreTable {
+	font: normal 12px Tahoma,Arial;
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	color: #606060;
+}
+.scoreTable td {
+	border-top: 1px solid #cccccc;
+	padding: 3px;
+	font-family: Verdana;
+}
+.leftBordered {
+	border-left: 1px solid #cccccc;
+}
+
+DIV.table {
+	margin: 10px;
+}
+
+DIV.table > TABLE.table {
+	box-shadow: 0px 0px 10px black;
+}
+
+
+TABLE.table {
+	width:100%;
+	border-spacing: 0px;
+	border-top: 2px solid #323222;
+	border-bottom: 2px solid #323222;
+}
+
+TABLE.table TR.evenRow TD { 
+	background-color: #eee;
+}
+
+TABLE.table TR.oddRow TD { 
+	background-color: #fff;
+}
+
+TABLE.table TR.headRow TD { 
+	background-color: #ffea94;
+	border-bottom: 2px solid #323222;
+}
+
+TABLE.table TD {
+	border-top: 1px solid #cccccc;
+	font: normal 11px Tahoma,Arial;
+	padding: 3px 5px 3px 5px;
+	text-align: left;
+}
+TABLE.table TH {
+	font: bold 12px Tahoma,Arial;
+	padding: 1px 5px 3px 5px;
+	text-align: left;
+	background-color: #323222;
+	color: white;
+	letter-spacing: 1px;
+}
+
+TABLE.table TD.testPass { text-align: right; color:green; padding: 0   0 0 2px; font-size: 9px; }
+TABLE.table TD.testFail { text-align: right; color:red;   padding: 0 1px 0 1px; font-size: 9px; }
+TABLE.table TD.testWait { text-align: right; color:gray;  padding: 0 3px 0   0; font-size: 9px; }
+
+TABLE.table TH SELECT,
+TABLE.table TH INPUT { 
+	background-color: #323222;
+	border: 1px solid white; 
+	padding: 1px; 
+	font: normal 10px Tahoma,Arial; 
+	color: white; }
+
+OL.pre {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+OL.pre LI.top { 
+	border-top: 1px solid #CCCCCC; }
+OL.pre LI.bot {
+	border-bottom: 1px solid #CCCCCC; }
+OL.pre LI.line {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 2px 0 2px;
+	background-color: #f7f7ed;
+	font-size: 11px;
+	border-right: 1px solid #CCCCCC;
+	border-left:  1px solid #CCCCCC; }
+
+.textDownload {
+	display: block;
+	text-align: right;
+}
+
+TABLE.abakus    { padding: 0; margin: 0; border: none;}
+TABLE.abakus TD { padding: 0; margin: 0; border: none;}
+
+
+@media print {
+    BODY { background-color: white; }
+    #pageTitle { display: none; border: none; }
+    #mainMenu  { display: none; border: none; }
+    #page { border: none;  }
+    #pageBody { border: none; width: auto; }
+    P, LI, TH, TD, H1, H2  { color: #000;}
+    P, LI, TH, TD { font-size: 16pt; font-family: Times }
+    #pageBody H1 { color: #000; font-size: 24pt; font-family: Times; font-weight: bold; letter-spacing: normal;}
+    #pageBody H2 { color: #000; font-size: 18pt; font-family: Times; font-weight: bold; letter-spacing: normal; }
+    .textDownload { display: none; }
+    OL.pre LI.line { font-size: 16pt; font-family: monospace; }
+}
+
+P.errorMessage {
+	color: red;
+	border-left: 2px solid red;
+	margin: 1ex;
+	padding: 1ex;
+}
+
+.replyBox { background-color: #ffd; border:1px solid #eec; padding: 1ex;margin: 0ex 1ex 1ex 5ex; }
+.postBox { background-color: #ffd; border:1px solid #eec; padding: 1ex;margin: 1ex; }
+.postTitle { font-weight: bold }
+.postMessage { font-style:italic; margin-top: 1ex; }
+
+.errorMessage { color: red; font-style: italic; }
+
+
+TD.exPass { padding: 0 !important;}
+TD.exPass DIV.top { margin: 2px; padding: 1px; background-color: green; color: white; text-align:center; }
+TD.exPass DIV.bot { margin: 2px; padding: 0px; color: black; text-align:center; }
+
+TD.exPart { padding: 0 !important;}
+TD.exPart DIV.top { margin: 2px; padding: 1px; background-color: yellow; color: black; text-align:center; }
+TD.exPart DIV.bot { margin: 2px; padding: 0px; color: black; text-align:center; }
+
+TD.exFreeze { padding: 0 !important;}
+TD.exFreeze DIV.top { margin: 2px; padding: 1px; background-color: blue; color: white; text-align:center; }
+TD.exFreeze DIV.bot { margin: 2px; padding: 0px; color: black; text-align:center; }
+
+TD.exWrong { padding: 0 !important;}
+TD.exWrong DIV.top { margin: 2px; padding: 1px; background-color: red; color: white; text-align:center; }
+TD.exWrong DIV.bot { margin: 2px; padding: 0px; color: black; text-align:center; }
+
+
+#remaining {
+	white-space: nowrap; 
+}	
+#remaining span { 
+	font-weight: bold; 
+	color: white;
+}
+
+
+TABLE.problems { border-spacing: 0; }
+TABLE.problems  TD { border-bottom: 1px solid white; }
+TABLE.problems  TD TD { border-bottom: 0px solid white; }
+
+.resBox { background: white; width: 55px; height: 45px; margin: 3px; border-radius: 7px; }
+.resBox DIV { padding: 2px 0 0 0; overflow: hidden; }
+
+IMG { background-color: white; border: 2px solid white; }
+
+PRE.compiler {
+	border: 2px solid #222;
+	background-color: white;
+	padding: 1ex;
+	border-radius: 1ex;
+	color: #b11;
+}

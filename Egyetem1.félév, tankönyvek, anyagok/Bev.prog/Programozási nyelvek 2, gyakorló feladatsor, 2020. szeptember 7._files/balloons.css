@@ -1,0 +1,42 @@
+.balloon1,  .balloon2,  .balloon3,  .balloon4,  .balloon5, 
+.balloon6,  .balloon7,  .balloon8,  .balloon9,  .balloon10, 
+.balloon11, .balloon12, .balloon13, .balloon14, .balloon15, 
+.balloon16, .balloon17, .balloon18, .balloon19, .balloon20, 
+.balloon21 {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana;
+	width: 16px; 
+	height: 16px; 
+	display: block; 
+	clear:both; 
+}
+
+.balloon3  { background: url('balloons/blue.png') center center no-repeat; }
+.balloon12 { background: url('balloons/brown.png') center center no-repeat; }
+.balloon19 { background: url('balloons/cayenne.png') center center no-repeat; }
+.balloon16 { background: url('balloons/darkblue.png') center center no-repeat; }
+.balloon10 { background: url('balloons/darkgreen.png') center center no-repeat; }
+.balloon6  { background: url('balloons/darkyellow.png') center center no-repeat; color: black; }
+.balloon18 { background: url('balloons/fern.png') center center no-repeat; }
+.balloon9  { background: url('balloons/grape.png') center center no-repeat; }
+.balloon7  { background: url('balloons/gray.png') center center no-repeat; }
+.balloon17 { background: url('balloons/lavender.png') center center no-repeat; }
+.balloon13 { background: url('balloons/lightgray.png') center center no-repeat; }
+.balloon20 { background: url('balloons/lightgreen.png') center center no-repeat; color: black; }
+.balloon15 { background: url('balloons/maroon.png') center center no-repeat; }
+.balloon1  { background: url('balloons/moss.png') center center no-repeat; }
+.balloon14 { background: url('balloons/orange.png') center center no-repeat; }
+.balloon5  { background: url('balloons/pink.png') center center no-repeat; }
+.balloon11 { background: url('balloons/plum.png') center center no-repeat; }
+.balloon2  { background: url('balloons/red.png') center center no-repeat; }
+.balloon4  { background: url('balloons/salmon.png') center center no-repeat; }
+.balloon8  { background: url('balloons/turquoise.png') center center no-repeat; color: black; }
+.balloon21 { background: url('balloons/yellow.png') center center no-repeat; color: black; }
+
+
+
+
